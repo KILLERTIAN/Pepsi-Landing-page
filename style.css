@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0062be;
+    transition: 0.5s;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding : 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 60px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+    color: white;
+    font-size: 4em;
+    line-height: 1.2em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content .textBox h2 span {
+    font-size: 2em;
+}
+.content .textBox p {
+    color: white;
+}
+.content .textBox a{ 
+    display: inline-block;
+    background: white;
+    padding: 8px 20px ;
+    margin-top: 20px;
+    color: black;
+    border-radius: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    margin-top: 50px;
+    justify-items: flex-end;
+}
+.content .imgBox img{
+    max-width: 260;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Pepsi Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="images/logo.png" alt="Pepsi Logo" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>
+                    That's What
+                    <br>
+                    <span>
+                        I like
+                    </span>
+                </h2>
+                <p>
+                    ALL YOUR
+                    FAVORITE FLAVORS.
+                    ALL RIGHT HERE.
+                    <br>
+                    Pepsi. Diet Pepsi. Pepsi Zero Sugar. The gang’s all here. Compare flavors, get nutritional facts and
+                    check out ingredients for all our Pepsi products.
+                </p>
+                <a href="#">View all Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/pepsi001.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/pepsi001.png" onclick="imgSlider('images/pepsi001.png');changeBgColor('#0062be') "></li>
+            <li><img src="images/pepsi002.png" onclick="imgSlider('images/pepsi002.png');changeBgColor('#e60c2c') "></li>
+            <li><img src="images/pepsi003.png" onclick="imgSlider('images/pepsi003.png');changeBgColor('#1e1e1e') "></li>
+        </ul>
+        <ul class = "social">
+            <li><a href="#"><img src="images/facebook.png"></a></li>
+            <li><a href="#"><img src="images/instagram.png"></a></li>
+            <li><a href="#"><img src="images/twitter.png"></a></li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
